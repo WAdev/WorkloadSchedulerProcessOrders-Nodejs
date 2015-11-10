@@ -1,11 +1,12 @@
-/*eslint-env node*/
-
-//------------------------------------------------------------------------------
-// node.js sample application for Workload Scheduler Bluemix
-//------------------------------------------------------------------------------
-
-// This application uses express as its web server
-// for more info, see: http://expressjs.com
+/*********************************************************************
+ *
+ * Licensed Materials - Property of IBM
+ * Product ID = 5698-WSH
+ *
+ * Copyright IBM Corp. 2015. All Rights Reserved.
+ *
+ ********************************************************************/ 
+ 
 var express = require('express');
 
 var  http = require('http'), path = require('path'), fs = require('fs'), ws = require('iws-light'), Guid = require('guid');
