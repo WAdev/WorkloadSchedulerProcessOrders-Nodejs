@@ -18,7 +18,7 @@ var db;
 var cloudant;
 
 var dbCredentials = {
-		dbName : 'single-trigger-sample'
+		dbName : 'wspojs'
 	};
 
 var wsConn;
