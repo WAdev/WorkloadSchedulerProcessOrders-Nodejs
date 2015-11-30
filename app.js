@@ -24,8 +24,8 @@ var dbCredentials = {
 var wsConn;
 
 var wsLibrary = {
-		name: 'sts',
-		procName: 'SingleTriggerProcess',
+		name: 'wslib',
+		procName: 'wspojs',
 		procDesc: 'This process will start every day at 23:00 (11PM)'
 };
 
